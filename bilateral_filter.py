@@ -35,10 +35,3 @@ def BilateralFilter():
 if __name__ == "__main__":
     BilateralFilter()
     
-# The code applies a bilateral filter to an image and displays the original and filtered images side by side.
-# It also saves the filtered image to a specified output path.
-# The bilateral filter is a non-linear, edge-preserving, and noise-reducing smoothing filter.
-# The code uses OpenCV and Matplotlib libraries for image processing and visualization.
-# The image is read from a specified path, converted to RGB format, and resized before applying the filter.
-# The filter parameters are set to 9, 75, and 75 for the diameter of the pixel neighborhood, sigma color, and sigma space respectively.
-# The filtered image is saved in the "results" directory.
