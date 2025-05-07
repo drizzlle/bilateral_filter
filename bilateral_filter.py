@@ -29,7 +29,7 @@ def BilateralFilter():
     plt.imshow(filtered_image)
     plt.show()
     # Save the filtered image
-    output_path = os.path.join(root_dir, "results", "filtered_image.jpg")
+    output_path = os.path.join(root_dir, "bilateral_filter/results", "filtered_image.jpg")
     cv.imwrite(output_path, filtered_image)
     print(f"Filtered image saved to {output_path}")
 if __name__ == "__main__":
